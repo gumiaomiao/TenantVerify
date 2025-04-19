@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyOrganization {
-    // 创建中石油总部
+    // 创建集团总部
     public OrganizationUnit  addsOrganization() {
-        OrganizationUnit cnpcHeadquarters = new OrganizationUnit("中石油总部");
+        OrganizationUnit cnpcHeadquarters = new OrganizationUnit("集团");
 
         // 创建二级单位
         OrganizationUnit daqingOilField = new OrganizationUnit("大庆油田");
@@ -14,7 +14,7 @@ public class MyOrganization {
         OrganizationUnit southwestOilField = new OrganizationUnit("西南油田");
         OrganizationUnit explorationInstitute = new OrganizationUnit("勘探院");
         OrganizationUnit safetyAndEnvironmentInstitute = new OrganizationUnit("安环院");
-        OrganizationUnit digitalIntelligenceResearchInstitute = new OrganizationUnit("数智研究院");
+        OrganizationUnit digitalIntelligenceResearchInstitute = new OrganizationUnit("数研院");
 
         // 将二级单位添加到总部
         cnpcHeadquarters.addSubUnit(daqingOilField);
